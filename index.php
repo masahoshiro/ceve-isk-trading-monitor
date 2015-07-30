@@ -43,7 +43,6 @@ require_once('./lib/db.php');
 	$str_time = substr($str_time,0,-1);	
 	$str_price = substr($str_price,0,-1);
 	$db->close();
-
 	?>
 		//var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 		var lineChartData = {
